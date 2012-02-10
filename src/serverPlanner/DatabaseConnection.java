@@ -21,8 +21,8 @@ public class DatabaseConnection {
 	public static java.sql.Connection getConnection() throws SQLException, IOException
 	{
 		String url = "jdbc:mysql://127.0.0.1:3306/TestDB";
-		String un = "root";
-		String pw = "nothing2lose";
+		String un = "****";
+		String pw = "*****";
 		
 		return DriverManager.getConnection(url, un, pw);
 	}
